@@ -1,0 +1,564 @@
+.left-side-icon,
+.right-side {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1024px;
+}
+.right-side {
+  background-color: var(--color-ghostwhite);
+  width: 1440px;
+}
+.left-side-icon {
+  width: 719.99px;
+}
+.board {
+  margin: 0;
+  position: absolute;
+  top: 464px;
+  left: 171px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.card,
+.card1,
+.input-field1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.card1 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+}
+.card,
+.input-field1 {
+  width: 422.64px;
+  height: 347.99px;
+}
+.input-field1 {
+  border: 0;
+  background-color: var(--field-color-darker);
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+.input-field {
+  top: 64.77px;
+  left: 32.93px;
+  width: 356.77px;
+  height: 43.91px;
+}
+.div,
+.input,
+.input-field {
+  position: absolute;
+}
+.input {
+  border: 0;
+  background-color: var(--field-color-darker);
+  height: 11.24%;
+  width: 84.42%;
+  top: 41.57%;
+  right: 7.79%;
+  bottom: 47.19%;
+  left: 7.79%;
+}
+.div {
+  height: 5.34%;
+  width: 19.48%;
+  top: 44.38%;
+  left: 11.69%;
+  font-size: var(--paragraph-text-md-s-size);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.login-form-child {
+  position: absolute;
+  height: 5.31%;
+  width: 0.24%;
+  top: 44.53%;
+  right: 68.71%;
+  bottom: 50.15%;
+  left: 31.05%;
+  border-right: 1px solid #999;
+  box-sizing: border-box;
+}
+.button-sign-in {
+  position: absolute;
+  top: 271.15px;
+  left: 32.93px;
+}
+.email-address,
+.forgot-password,
+.johndoegmailcom,
+.password {
+  position: absolute;
+  top: 32.93px;
+  left: 32.93px;
+  font-size: var(--paragraph-text-md-s-size);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 105.38px;
+  height: 20.86px;
+}
+.forgot-password,
+.johndoegmailcom,
+.password {
+  top: 75.75px;
+  left: 49.4px;
+  width: 155.88px;
+}
+.forgot-password,
+.password {
+  top: 130.63px;
+  left: 32.93px;
+  width: 74.65px;
+}
+.forgot-password {
+  top: 228.33px;
+  left: 34.03px;
+  color: var(--link);
+  width: 136.12px;
+}
+.dont-have-an {
+  color: var(--secondary-text);
+}
+.register-here {
+  color: var(--link);
+}
+.dont-have-an-container {
+  position: absolute;
+  top: 369.94px;
+  left: 68.06px;
+  font-size: var(--paragraph-text-md-s-size);
+  font-family: var(--font-lato);
+  text-align: center;
+  display: inline-block;
+  width: 286.51px;
+  height: 20.86px;
+}
+.google-sign-in,
+.login-form {
+  position: absolute;
+  left: 813.18px;
+}
+.login-form {
+  top: 398.88px;
+  width: 422.64px;
+  height: 390.8px;
+}
+.google-sign-in {
+  top: 338.51px;/* CSS for the overall layout */
+.sign-in {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 72px;
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+
+.right-side {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1024px;
+  background-color: var(--color-ghostwhite);
+  width: 1440px;
+}
+
+.left-side-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 719.99px;
+}
+
+.board {
+  margin: 0;
+  position: absolute;
+  top: 464px;
+  left: 171px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+/* CSS for the form and input fields */
+.login-form {
+  position: absolute;
+  top: 398.88px;
+  left: 813.18px;
+  width: 422.64px;
+  height: 390.8px;
+}
+
+.input-field1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 422.64px;
+  height: 347.99px;
+  border: 0;
+  background-color: var(--field-color-darker);
+}
+
+.input {
+  border: 0;
+  background-color: var(--field-color-darker);
+  height: 11.24%;
+  width: 84.42%;
+  top: 41.57%;
+  right: 7.79%;
+  bottom: 47.19%;
+  left: 7.79%;
+}
+
+.email-address,
+.forgot-password,
+.johndoegmailcom,
+.password {
+  position: absolute;
+  top: 32.93px;
+  left: 32.93px;
+  font-size: var(--paragraph-text-md-s-size);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 105.38px;
+  height: 20.86px;
+}
+
+/* CSS for buttons */
+.button-sign-in {
+  position: absolute;
+  top: 271.15px;
+  left: 32.93px;
+  width: 355px;
+}
+
+.google-sign-in,
+.apple-sign-in {
+  
+  position: absolute;
+  top: 338.51px;
+  width: 200px;
+  height: 32.93px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--secondary-text);
+  background-color: #ffffff; /* You can choose a background color */
+}
+
+/* CSS for the text and links */
+.sign-in1 {
+  margin: 0;
+  top: 235.32px;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: inherit;
+  width: 143.81px;
+  height: 48.3px;
+}
+
+.sign-in-to {
+  top: 289.11px;
+  font-size: var(--paragraph-text-md-s-size);
+  font-family: var(--font-lato);
+  width: 176.74px;
+  height: 20.86px;
+}
+
+.logo {
+  margin: 0;
+  position: absolute;
+  top: 59.81px;
+  left: 72.99px;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  line-height: 122.69%;
+  font-weight: 700;
+  font-family: var(--font-poppins);
+}
+
+/* CSS for the image buttons */
+.image-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Style for the images within the buttons */
+.image-button img {
+  width: 24px; /* Adjust the width and height as needed */
+  height: 24px;
+  margin: 4px; /* Add some margin around the images */
+  /* Add other styles, e.g., hover effects, if desired */
+}
+
+/* CSS for the vector icons */
+.vector-parent {
+  position: absolute;
+  top: 909px;
+  left: 144.5px;
+  width: 299px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Optional: If you want to add styles for the LinkedIn and Discord buttons */
+.carbonlogo-linkedin,
+.carbonlogo-discord {
+  text-decoration: none;
+}
+
+/* Additional styles for specific vector icons */
+.vector-icon {
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+
+.vector-icon1 {
+  width: 42px;
+  height: 41px;
+}
+
+.vector-icon2 {
+  position: absolute;
+  height: 74.69%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.81%;
+  left: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.vector-icon3,
+.vector-icon4 {
+  position: absolute;
+  height: 9.05%;
+  width: 23.88%;
+  top: 46.57%;
+  right: 38.38%;
+  bottom: 44.38%;
+  left: 37.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.vector-icon4 {
+  height: 81.25%;
+  width: 71.09%;
+  top: 12.5%;
+  right: 14.45%;
+  bottom: 6.25%;
+  left: 14.45%;
+}
+
+/* CSS for the rest of the elements not included in the previous classes */
+/* ... */
+
+}
+.button,
+.sign-in-with,
+.white {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.button {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background-color: var(--color-white);
+}
+.sign-in-with,
+.white {
+  width: 197.6px;
+  height: 32.93px;
+}
+.sign-in-with {
+  top: 8.78px;
+  left: 50.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120.75px;
+  height: 16.47px;
+}
+.apple-1-icon {
+  /* position: absolute; */
+  top: 7.68px;
+  left: 26.35px;
+  width: 12.62px;
+  height: 15.37px;
+  overflow: hidden;
+}
+.apple-sign-in {
+  position: absolute;
+  top: 338.51px;
+  left: 1038.22px;
+  width: 197.6px;
+  height: 32.93px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--secondary-text);
+  background-color: #ffffff; /* You can choose a background color */
+  
+}
+.sign-in-to,
+.sign-in1 {
+  position: absolute;
+  left: 813.18px;
+  color: var(--color-black);
+  display: inline-block;
+}
+.sign-in1 {
+  margin: 0;
+  top: 235.32px;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: inherit;
+  width: 143.81px;
+  height: 48.3px;
+}
+.sign-in-to {
+  top: 289.11px;
+  font-size: var(--paragraph-text-md-s-size);
+  font-family: var(--font-lato);
+  width: 176.74px;
+  height: 20.86px;
+}
+.logo {
+  margin: 0;
+  position: absolute;
+  top: 59.81px;
+  left: 72.99px;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  line-height: 122.69%;
+  font-weight: 700;
+  font-family: var(--font-poppins);
+}
+.vector-icon,
+.vector-icon1 {
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+.vector-icon1 {
+  width: 42px;
+  height: 41px;
+}
+.vector-icon2 {
+  position: absolute;
+  height: 74.69%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.81%;
+  left: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.carbonlogo-linkedin {
+  text-decoration: none;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vector-icon3,
+.vector-icon4 {
+  position: absolute;
+  height: 9.05%;
+  width: 23.88%;
+  top: 46.57%;
+  right: 38.38%;
+  bottom: 44.38%;
+  left: 37.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon4 {
+  height: 81.25%;
+  width: 71.09%;
+  top: 12.5%;
+  right: 14.45%;
+  bottom: 6.25%;
+  left: 14.45%;
+}
+.carbonlogo-discord {
+  text-decoration: none;
+  position: relative;
+  width: 50px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vector-parent {
+  position: absolute;
+  top: 909px;
+  left: 144.5px;
+  width: 299px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign-in {
+  position: relative;
+  background-color: var(--color-ghostwhite);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 72px;
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+
+/* CSS for the image buttons */
+.image-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Style for the images within the buttons */
+.image-button img {
+  width: 24px; /* Adjust the width and height as needed */
+  height: 24px;
+  margin: 4px; /* Add some margin around the images */
+  /* Add other styles, e.g., hover effects, if desired */
+}
+
